@@ -1,0 +1,71 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: system-ui, sans-serif;
+}
+
+.app {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.tabs button {
+  background: #222;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.tabs button.active {
+  background: #fff;
+  color: #000;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+input, textarea, select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+button {
+  background: #fff;
+  color: #000;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.output {
+  background: #222;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
